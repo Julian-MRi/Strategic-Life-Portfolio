@@ -1,0 +1,826 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #4689cc; -webkit-text-stroke: #4689cc}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #c27e65; -webkit-text-stroke: #c27e65}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #8cd3fe; -webkit-text-stroke: #8cd3fe}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #cacaca; -webkit-text-stroke: #cacaca}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #cacaca; -webkit-text-stroke: #cacaca; min-height: 16.0px}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6d7378; -webkit-text-stroke: #6d7378}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #71c083; -webkit-text-stroke: #71c083}
+    span.s1 {font-kerning: none; background-color: #171818}
+    span.s2 {font-kerning: none; color: #8cd3fe; background-color: #171818; -webkit-text-stroke: 0px #8cd3fe}
+    span.s3 {font-kerning: none; color: #6d6d6d; background-color: #171818; -webkit-text-stroke: 0px #6d6d6d}
+    span.s4 {font-kerning: none; color: #4689cc; background-color: #171818; -webkit-text-stroke: 0px #4689cc}
+    span.s5 {font-kerning: none; color: #cacaca; background-color: #171818; -webkit-text-stroke: 0px #cacaca}
+    span.s6 {font-kerning: none; color: #c27e65; background-color: #171818; -webkit-text-stroke: 0px #c27e65}
+    span.s7 {font-kerning: none; color: #d4d4d4; background-color: #171818; -webkit-text-stroke: 0px #d4d4d4}
+    span.s8 {font-kerning: none; color: #71c083; background-color: #171818; -webkit-text-stroke: 0px #71c083}
+    span.s9 {font-kerning: none; color: #f67c30; background-color: #171818; -webkit-text-stroke: 0px #f67c30}
+    span.s10 {font-kerning: none}
+    span.s11 {font-kerning: none; color: #a7c598; background-color: #171818; -webkit-text-stroke: 0px #a7c598}
+    span.s12 {font-kerning: none; color: #6d7378; background-color: #171818; -webkit-text-stroke: 0px #6d7378}
+    span.s13 {font-kerning: none; color: #b76ff7; background-color: #171818; -webkit-text-stroke: 0px #b76ff7}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE</span><span class="s2"> html</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;</span><span class="s4">html</span><span class="s5"> </span><span class="s2">lang</span><span class="s3">=</span><span class="s1">"en"</span><span class="s5"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"dark"</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s3">&lt;</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">meta</span><span class="s5"> </span><span class="s1">charset</span><span class="s3">=</span><span class="s6">"UTF-8"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">meta</span><span class="s5"> </span><span class="s2">name</span><span class="s3">=</span><span class="s1">"viewport"</span><span class="s5"> </span><span class="s2">content</span><span class="s3">=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">title</span><span class="s3">&gt;</span><span class="s1">Strategic Life Portfolio</span><span class="s3">&lt;/</span><span class="s4">title</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Tailwind CSS --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">script</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://cdn.tailwindcss.com"</span><span class="s3">&gt;&lt;/</span><span class="s4">script</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>tailwind</span><span class="s7">.</span><span class="s1">config </span><span class="s7">=</span><span class="s1"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>darkMode</span><span class="s7">:</span><span class="s1"> </span><span class="s8">'class'</span><span class="s7">,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>theme</span><span class="s7">:</span><span class="s1"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>extend</span><span class="s7">:</span><span class="s1"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>fontFamily</span><span class="s7">:</span><span class="s1"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>sans</span><span class="s7">:</span><span class="s1"> </span><span class="s7">[</span><span class="s8">'Inter'</span><span class="s7">,</span><span class="s1"> </span><span class="s8">'sans-serif'</span><span class="s7">],</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s7">},</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>colors</span><span class="s7">:</span><span class="s1"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>neutral</span><span class="s7">:</span><span class="s1"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s9">950</span><span class="s7">:</span><span class="s1"> </span><span class="s8">'#0a0a0a'</span><span class="s7">,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s7">}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s7">},</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>animation</span><span class="s7">:</span><span class="s1"> </span><span class="s7">{</span></p>
+<p class="p7"><span class="s5"><span class="Apple-converted-space">                        </span></span><span class="s1">'pulse-slow'</span><span class="s7">:</span><span class="s5"> </span><span class="s1">'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite'</span><span class="s7">,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s7">}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s7">}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s7">}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- React &amp; ReactDOM --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">script</span><span class="s5"> </span><span class="s2">crossorigin</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://unpkg.com/react@18/umd/react.development.js"</span><span class="s3">&gt;&lt;/</span><span class="s4">script</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">script</span><span class="s5"> </span><span class="s2">crossorigin</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://unpkg.com/react-dom@18/umd/react-dom.development.js"</span><span class="s3">&gt;&lt;/</span><span class="s4">script</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Babel for JSX --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">script</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://unpkg.com/@babel/standalone/babel.min.js"</span><span class="s3">&gt;&lt;/</span><span class="s4">script</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Framer Motion (UMD) --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">script</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"</span><span class="s3">&gt;&lt;/</span><span class="s4">script</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- PDF Generation Libraries --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">script</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"</span><span class="s3">&gt;&lt;/</span><span class="s4">script</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">script</span><span class="s5"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"</span><span class="s3">&gt;&lt;/</span><span class="s4">script</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Google Fonts: Inter --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">link</span><span class="s5"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"</span><span class="s5"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">style</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">body</span><span class="s1"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">background-color:</span><span class="s1"> #0a0a0a</span><span class="s7">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">color:</span><span class="s1"> #ffffff</span><span class="s7">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">font-family:</span><span class="s1"> </span><span class="s8">'Inter'</span><span class="s7">,</span><span class="s1"> </span><span class="s6">sans-serif</span><span class="s7">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">overflow-x:</span><span class="s1"> </span><span class="s6">hidden</span><span class="s7">;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s2">transition:</span><span class="s5"> </span><span class="s1">background-color</span><span class="s5"> </span><span class="s11">0.3s</span><span class="s7">,</span><span class="s5"> </span><span class="s1">color</span><span class="s5"> </span><span class="s11">0.3s</span><span class="s7">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">html.light</span><span class="s5"> </span><span class="s1">body</span><span class="s5"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">background-color:</span><span class="s1"> #f4f4f5</span><span class="s7">;</span><span class="s1"> </span><span class="s12">/* zinc-100 */</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">color:</span><span class="s1"> #18181b</span><span class="s7">;</span><span class="s1"> </span><span class="s12">/* zinc-900 */</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">/* Hide scrollbar for clean UI */</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">::-webkit-scrollbar</span><span class="s5"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">width:</span><span class="s1"> </span><span class="s11">8px</span><span class="s7">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">height:</span><span class="s1"> </span><span class="s11">8px</span><span class="s7">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">::-webkit-scrollbar-track</span><span class="s5"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">background:</span><span class="s1"> </span><span class="s6">transparent</span><span class="s7">;</span><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">::-webkit-scrollbar-thumb</span><span class="s5"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">background:</span><span class="s1"> #333</span><span class="s7">;</span><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">border-radius:</span><span class="s5"> </span><span class="s11">4px</span><span class="s7">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">::-webkit-scrollbar-thumb:hover</span><span class="s5"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">background:</span><span class="s1"> #555</span><span class="s7">;</span><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">.tooltip-content</span><span class="s5"> </span><span class="s7">{</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">backdrop-filter:</span><span class="s5"> </span><span class="s6">blur(</span><span class="s11">12px</span><span class="s6">)</span><span class="s7">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">/* Range Input Reset */</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">input</span><span class="s7">[</span><span class="s6">type</span><span class="s7">=</span><span class="s6">range</span><span class="s7">]</span><span class="s1">::-webkit-slider-thumb</span><span class="s5"> </span><span class="s7">{</span></p>
+<p class="p3"><span class="s5"><span class="Apple-converted-space">            </span></span><span class="s1">-webkit-appearance:</span><span class="s5"> </span><span class="s6">none</span><span class="s7">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">        </span></span><span class="s1">/* Force Inter font on SVG Text */</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s4">svg</span><span class="s1"> </span><span class="s4">text</span><span class="s1"> </span><span class="s7">{</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">font-family:</span><span class="s1"> </span><span class="s8">'Inter'</span><span class="s7">,</span><span class="s1"> </span><span class="s6">sans-serif</span><span class="s1"> </span><span class="s13">!important</span><span class="s7">;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s7">}</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">style</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s3">&lt;/</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s3">&lt;</span><span class="s1">body</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">div</span><span class="s5"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"root"</span><span class="s3">&gt;&lt;/</span><span class="s4">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p6"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Main Application Logic (No Firebase needed for session-only data) --&gt;</span></p>
+<p class="p2"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s4">script</span><span class="s5"> </span><span class="s2">type</span><span class="s3">=</span><span class="s1">"text/babel"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const { useState, useEffect, useRef, useMemo } = React;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const { motion, AnimatePresence } = window.Motion;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>// --- ICONS ---</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const ArrowLeft = ({ size = 24, className = "" }) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;path d="m12 19-7-7 7-7"/&gt;&lt;path d="M19 12H5"/&gt;&lt;/svg&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Info = ({ size = 24, className = "" }) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;circle cx="12" cy="12" r="10"/&gt;&lt;path d="M12 16v-4"/&gt;&lt;path d="M12 8h.01"/&gt;&lt;/svg&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Download = ({ size = 24, className = "" }) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/&gt;&lt;polyline points="7 10 12 15 17 10"/&gt;&lt;line x1="12" x2="12" y1="15" y2="3"/&gt;&lt;/svg&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Moon = ({ className, strokeWidth = 2 }) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">             </span>&lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/&gt;&lt;/svg&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Sun = ({ className, strokeWidth = 2 }) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;circle cx="12" cy="12" r="4"/&gt;&lt;path d="M12 2v2"/&gt;&lt;path d="M12 20v2"/&gt;&lt;path d="m4.93 4.93 1.41 1.41"/&gt;&lt;path d="m17.66 17.66 1.41 1.41"/&gt;&lt;path d="M2 12h2"/&gt;&lt;path d="M20 12h2"/&gt;&lt;path d="m6.34 17.66-1.41 1.41"/&gt;&lt;path d="m19.07 4.93-1.41 1.41"/&gt;&lt;/svg&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Zap = ({ size = 24, className = "" }) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/&gt;&lt;/svg&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Heart = ({ size = 24, className = "" }) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/&gt;&lt;/svg&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const Star = ({ size = 24, className = "" }) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>&lt;svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}&gt;&lt;polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/&gt;&lt;/svg&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>);</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>// --- CONFIGURATION &amp; UTILS ---</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const cn = (...classes) =&gt; classes.filter(Boolean).join(' ');</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>// --- THEME TOGGLE COMPONENT ---</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>function ThemeToggle({ className }) {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [isDark, setIsDark] = useState(true);</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>useEffect(() =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>const isDarkMode = document.documentElement.classList.contains('dark');</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>setIsDark(isDarkMode);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>}, []);</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const toggleTheme = () =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>const newIsDark = !isDark;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>setIsDark(newIsDark);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>if (newIsDark) {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>document.documentElement.classList.add('dark');</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>document.documentElement.classList.remove('light');</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>} else {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>document.documentElement.classList.remove('dark');</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>document.documentElement.classList.add('light');</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>};</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>className={cn(</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>"flex w-16 h-8 p-1 rounded-full cursor-pointer transition-all duration-300",</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>isDark<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>? "bg-zinc-950 border border-zinc-800"<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>: "bg-white border border-zinc-200",</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>className</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>)}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>onClick={toggleTheme}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>role="button"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>tabIndex={0}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div className="flex justify-between items-center w-full"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>className={cn(</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>"flex justify-center items-center w-6 h-6 rounded-full transition-transform duration-300",</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>isDark<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>? "transform translate-x-0 bg-zinc-800"<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>: "transform translate-x-8 bg-gray-200"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>)}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>{isDark ? (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;Moon className="w-4 h-4 text-white" strokeWidth={1.5} /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>) : (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;Sun className="w-4 h-4 text-gray-700" strokeWidth={1.5} /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>)}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>className={cn(</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>"flex justify-center items-center w-6 h-6 rounded-full transition-transform duration-300",</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>isDark<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>? "bg-transparent"<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>: "transform -translate-x-8"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>)}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>{isDark ? (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;Sun className="w-4 h-4 text-gray-500" strokeWidth={1.5} /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>) : (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;Moon className="w-4 h-4 text-black" strokeWidth={1.5} /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>)}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>// --- FLOATING PATHS (Landing) ---</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>function FloatingPaths({ position }) {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const paths = Array.from({ length: 36 }, (_, i) =&gt; ({</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>id: i,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>d: `M-${380 - i * 5 * position} -${189 + i * 6}C-${380 - i * 5 * position} -${189 + i * 6} -${312 - i * 5 * position} ${216 - i * 6} ${152 - i * 5 * position} ${343 - i * 6}C${616 - i * 5 * position} ${470 - i * 6} ${684 - i * 5 * position} ${875 - i * 6} ${684 - i * 5 * position} ${875 - i * 6}`,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>color: `rgba(15,23,42,${0.1 + i * 0.03})`,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>width: 0.5 + i * 0.03,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>}));</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div className="absolute inset-0 pointer-events-none"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;svg className="w-full h-full text-white opacity-20" viewBox="0 0 696 316" fill="none"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>{paths.map((path) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;motion.path key={path.id} d={path.d} stroke="currentColor" strokeWidth={path.width} strokeOpacity={0.1 + path.id * 0.03} initial={{ pathLength: 0.3, opacity: 0.6 }} animate={{ pathLength: 1, opacity: [0.3, 0.6, 0.3], pathOffset: [0, 1, 0] }} transition={{ duration: 20 + Math.random() * 10, repeat: Infinity, ease: "linear" }} /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>))}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/svg&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>function LandingPage({ onStart }) {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-neutral-950"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div className="absolute inset-0"&gt;&lt;FloatingPaths position={1} /&gt;&lt;FloatingPaths position={-1} /&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div className="absolute top-6 right-6 z-50"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                         </span>&lt;ThemeToggle /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div className="relative z-10 container mx-auto px-4 md:px-6 text-center"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }} className="max-w-4xl mx-auto"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;h1 className="text-5xl sm:text-7xl md:text-8xl font-bold mb-8 tracking-tighter text-white font-sans"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>{"Strategic Life Portfolio".split(" ").map((word, i) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;span key={i} className="inline-block mr-4 last:mr-0"&gt;{word.split("").map((l, j) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;motion.span key={`${i}-${j}`} initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: i * 0.1 + j * 0.03, type: "spring", stiffness: 150, damping: 25 }} className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-white to-white/60"&gt;{l}&lt;/motion.span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>))}&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>))}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/h1&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="inline-block group relative bg-gradient-to-b from-white/10 to-black/10 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-blue-500/20 transition-shadow duration-300"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;button onClick={onStart} className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-black/80 hover:bg-black/90 text-white transition-all duration-300 border border-white/10 flex items-center"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;span className="opacity-90 group-hover:opacity-100 transition-opacity"&gt;Build My Portfolio&lt;/span&gt;&lt;span className="ml-3 opacity-70 group-hover:opacity-100 group-hover:translate-x-1.5 transition-all duration-300"&gt;→&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/button&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/motion.div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>// --- DISCRETE SLIDER COMPONENT ---</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const DiscreteSlider = ({ value, onChange, colorClass, bgClass, max = 10 }) =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const percentage = ((value - 1) / (max - 1)) * 100;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div className="flex items-center gap-5 w-full select-none touch-none"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div className="relative flex-1 h-10 flex items-center group"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div className="absolute w-full h-1.5 bg-neutral-800/50 dark:bg-neutral-800 rounded-full overflow-hidden"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className={`h-full ${bgClass} transition-all duration-200 ease-out`} style={{ width: `${percentage}%` }} /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>className={`absolute h-5 w-5 bg-white rounded-full shadow-lg border-2 border-neutral-900 cursor-grab active:cursor-grabbing transition-all duration-200 ease-out z-20 group-hover:scale-125`}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>style={{ left: `calc(${percentage}% - 10px)` }}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>/&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;input type="range" min="1" max={max} step="1" value={value} onChange={(e) =&gt; onChange(parseInt(e.target.value))} className="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-30" aria-label="Rating slider" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div className="absolute top-7 left-0 w-full flex justify-between px-0.5 pointer-events-none"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span className="text-[10px] font-mono text-neutral-500 font-bold"&gt;1&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span className="text-[10px] font-mono text-neutral-500 font-bold"&gt;5&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span className="text-[10px] font-mono text-neutral-500 font-bold"&gt;10&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div className={`font-mono text-2xl font-bold ${colorClass} w-10 text-right tabular-nums`}&gt;{value}&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>};</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>// --- TOOLTIP COMPONENT ---</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>function Tooltip({ text, children }) {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [isVisible, setIsVisible] = useState(false);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div className="relative flex items-center" onMouseEnter={() =&gt; setIsVisible(true)} onMouseLeave={() =&gt; setIsVisible(false)}&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>{children}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;AnimatePresence&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>{isVisible &amp;&amp; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 10 }} className="absolute left-full ml-3 bottom-0 z-50 w-64 p-3 bg-neutral-900/95 dark:bg-neutral-900/90 border border-white/10 rounded-xl shadow-xl tooltip-content pointer-events-none text-left"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;p className="text-xs text-white dark:text-neutral-200 leading-relaxed font-sans"&gt;{text}&lt;/p&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/motion.div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>)}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/AnimatePresence&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>// --- MATRIX CHART COMPONENT (Enhanced) ---</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>function MatrixChart({ data, structure, isPdf = false }) {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const width = 800;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const height = 800;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const padding = 60;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const chartSize = width - padding * 2;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [hoveredUnit, setHoveredUnit] = useState(null);</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const xScale = (val) =&gt; padding + (val / 10) * chartSize;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const yScale = (val) =&gt; height - (padding + (val / 10) * chartSize);<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const rScale = (val) =&gt; 10 + (val * 4);<span class="Apple-converted-space"> </span></span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>// Theme Colors for PDF vs Screen</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const axisColor = isPdf ? '#4b5563' : 'currentColor'; // gray-600 vs current</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const gridColor = isPdf ? '#e5e7eb' : 'currentColor'; // gray-200 vs current</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const textColor = isPdf ? '#111827' : 'currentColor'; // gray-900 vs current</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const bubbleStroke = isPdf ? 'white' : (document.documentElement.classList.contains('dark') ? '#000' : '#fff');</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const bubbles = useMemo(() =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>const b = [];</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>structure.forEach(group =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>group.units.forEach(unit =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const unitData = data[unit.id] || { importance: 5, satisfaction: 5, timeInvested: 5 };</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>b.push({</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>...unitData,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>...unit,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>color: group.color,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>cx: xScale(unitData.satisfaction),</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>cy: yScale(unitData.importance),</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>r: rScale(unitData.timeInvested)</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>});</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>});</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>});</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>return b;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>}, [data, structure]);</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>// Calculate collisions and layout</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const labelData = useMemo(() =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>return bubbles.map((current, i) =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>const isOverlapping = bubbles.some((other, j) =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>if (i === j) return false;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const dist = Math.hypot(current.cx - other.cx, current.cy - other.cy);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>return dist &lt; (current.r + other.r + 5);<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>});</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>const isSmall = current.r &lt; 28;<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>const showOutside = isOverlapping || isSmall;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>if (showOutside) {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const centerX = width / 2;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const centerY = height / 2;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const angle = Math.atan2(current.cy - centerY, current.cx - centerX);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const lineLen = 40;<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const labelX = current.cx + Math.cos(angle) * (current.r + lineLen);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const labelY = current.cy + Math.sin(angle) * (current.r + lineLen);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const startX = current.cx + Math.cos(angle) * current.r;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const startY = current.cy + Math.sin(angle) * current.r;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const anchor = labelX &gt; current.cx ? "start" : "end";</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>const xOffset = labelX &gt; current.cx ? 5 : -5;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>return { ...current, type: 'outside', lx: labelX, ly: labelY, sx: startX, sy: startY, anchor: anchor, xOffset: xOffset };</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>} else {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>return { ...current, type: 'inside' };</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>});</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>}, [bubbles]);</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div className={`w-full aspect-square max-w-4xl mx-auto relative font-sans ${isPdf ? '' : ''}`}&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>{/* Hover Card (Not shown in PDF) */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>{!isPdf &amp;&amp; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;AnimatePresence&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>{hoveredUnit &amp;&amp; (() =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                 </span>const unit = labelData.find(u =&gt; u.id === hoveredUnit);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                 </span>if(!unit) return null;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                 </span>const energyPct = (unit.timeInvested / 10) * 100;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                 </span>const isRightSide = unit.cx &gt; width / 2;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                 </span>const isBottomSide = unit.cy &gt; height / 2;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                 </span>const cardStyle = {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                     </span>left: isRightSide ? 'auto' : `${(unit.cx / width) * 100}%`,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                     </span>right: isRightSide ? `${100 - ((unit.cx / width) * 100)}%` : 'auto',</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                     </span>top: isBottomSide ? 'auto' : `${(unit.cy / height) * 100}%`,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                     </span>bottom: isBottomSide ? `${100 - ((unit.cy / height) * 100)}%` : 'auto',</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                     </span>marginLeft: isRightSide ? 0 : '20px',</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                     </span>marginRight: isRightSide ? '20px' : 0,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                     </span>marginTop: isBottomSide ? 0 : '20px',</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                     </span>marginBottom: isBottomSide ? '20px' : 0</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                 </span>};</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                 </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;motion.div<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>initial={{ opacity: 0, scale: 0.8, y: 10 }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>animate={{ opacity: 1, scale: 1, y: 0 }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>exit={{ opacity: 0, scale: 0.8, y: 10 }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>transition={{ duration: 0.2 }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>className="absolute z-50 w-64 bg-black/90 dark:bg-black/90 bg-neutral-900/95 backdrop-blur-lg border border-white/20 shadow-2xl rounded-xl overflow-hidden pointer-events-none font-sans"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>style={cardStyle}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div className="p-4"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div className="flex justify-between items-start mb-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;h3 className="text-sm font-bold text-white"&gt;{unit.name}&lt;/h3&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;span className="text-[10px] font-mono text-white/50 bg-white/10 px-1.5 py-0.5 rounded"&gt;{unit.area}&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;p className="text-xs text-white/70 mb-4 leading-snug"&gt;{unit.desc}&lt;/p&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;div className="space-y-3"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;div className="grid grid-cols-2 gap-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;div className="bg-white/5 p-2 rounded border border-white/5"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;div className="flex items-center gap-1 text-white/50 text-[10px] uppercase tracking-wider mb-1"&gt;&lt;Star size={10} /&gt; Importance&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;div className="text-lg font-bold text-indigo-400"&gt;{unit.importance}&lt;span className="text-xs text-white/30 font-normal"&gt;/10&lt;/span&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;div className="bg-white/5 p-2 rounded border border-white/5"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;div className="flex items-center gap-1 text-white/50 text-[10px] uppercase tracking-wider mb-1"&gt;&lt;Heart size={10} /&gt; Satisfaction&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;div className="text-lg font-bold text-emerald-400"&gt;{unit.satisfaction}&lt;span className="text-xs text-white/30 font-normal"&gt;/10&lt;/span&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;div className="pt-2 border-t border-white/10"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;div className="flex justify-between items-center text-xs mb-1"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;span className="flex items-center text-white/80"&gt;&lt;Zap size={12} className="mr-1 text-amber-400" /&gt; Time Invested&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;span className="font-mono text-amber-400"&gt;{unit.timeInvested}h+&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;div className="w-full h-1.5 bg-white/10 rounded-full overflow-hidden"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;motion.div initial={{ width: 0 }} animate={{ width: `${energyPct}%` }} className="h-full bg-gradient-to-r from-amber-500 to-orange-500" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/motion.div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                 </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>})()}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/AnimatePresence&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>)}</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;svg viewBox={`0 0 ${width} ${height}`} className={`w-full h-full rounded-lg border shadow-inner ${isPdf ? 'bg-transparent border-none' : 'bg-neutral-50 dark:bg-black/40 border-neutral-200 dark:border-white/10'}`}&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;defs&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;pattern id={isPdf ? "grid-pdf" : "grid"} width={chartSize/10} height={chartSize/10} patternUnits="userSpaceOnUse"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;path d={`M ${chartSize/10} 0 L 0 0 0 ${chartSize/10}`} fill="none" stroke={gridColor} className={isPdf ? '' : 'text-neutral-200 dark:text-white/5'} strokeWidth="1"/&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/pattern&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/defs&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;rect x={padding} y={padding} width={chartSize} height={chartSize} fill={`url(#${isPdf ? "grid-pdf" : "grid"})`} /&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>{/* Quadrant Lines */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;line x1={padding} y1={yScale(5)} x2={width-padding} y2={yScale(5)} stroke={isPdf ? '#9ca3af' : 'currentColor'} className={isPdf ? '' : 'text-neutral-400 dark:text-white/20'} strokeWidth="2" strokeDasharray="5,5" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;line x1={xScale(5)} y1={padding} x2={xScale(5)} y2={height-padding} stroke={isPdf ? '#9ca3af' : 'currentColor'} className={isPdf ? '' : 'text-neutral-400 dark:text-white/20'} strokeWidth="2" strokeDasharray="5,5" /&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>{/* Axes */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;line x1={padding} y1={height-padding} x2={width-padding} y2={height-padding} stroke={axisColor} className={isPdf ? '' : 'text-neutral-600 dark:text-white/40'} strokeWidth="2" /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;line x1={padding} y1={padding} x2={padding} y2={height-padding} stroke={axisColor} className={isPdf ? '' : 'text-neutral-600 dark:text-white/40'} strokeWidth="2" /&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>{/* Labels - Forced Inter Font */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;text x={width/2} y={height-15} textAnchor="middle" fill={textColor} className={isPdf ? '' : 'text-neutral-700 dark:text-white/60'} fontSize="14" fontWeight="bold" letterSpacing="0.05em" style={{ fontFamily: 'Inter, sans-serif' }}&gt;SATISFACTION&lt;/text&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;text x={25} y={height/2} textAnchor="middle" fill={textColor} className={isPdf ? '' : 'text-neutral-700 dark:text-white/60'} fontSize="14" fontWeight="bold" letterSpacing="0.05em" transform={`rotate(-90, 25, ${height/2})`} style={{ fontFamily: 'Inter, sans-serif' }}&gt;IMPORTANCE&lt;/text&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>{labelData.map((item, i) =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>const isHovered = hoveredUnit === item.id;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;g<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>key={i}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>onMouseEnter={() =&gt; !isPdf &amp;&amp; setHoveredUnit(item.id)}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>onMouseLeave={() =&gt; !isPdf &amp;&amp; setHoveredUnit(null)}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>style={{ cursor: isPdf ? 'default' : 'pointer' }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>{/* Pulse Effect Layer - Screen Only */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>{!isPdf &amp;&amp; isHovered &amp;&amp; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;motion.circle</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>cx={item.cx} cy={item.cy} r={item.r}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>initial={{ opacity: 0.5, scale: 1 }} animate={{ opacity: 0, scale: 2 }} transition={{ duration: 1, repeat: Infinity }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>fill={item.color}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>/&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>)}</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>{/* Connector Line */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>{item.type === 'outside' &amp;&amp; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;line x1={item.sx} y1={item.sy} x2={item.lx} y2={item.ly}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>stroke={isPdf ? 'black' : (isHovered ? item.color : (document.documentElement.classList.contains('dark') ? 'white' : 'black'))}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>strokeWidth="1.5"<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>opacity={isHovered ? 1 : (isPdf ? 1 : 0.3)}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>/&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>)}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                                    </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>{/* Main Bubble */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>{!isPdf ? (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;motion.circle<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>cx={item.cx} cy={item.cy} r={item.r} fill={item.color} opacity={isHovered ? 1 : 0.85}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>stroke={bubbleStroke} strokeWidth={isHovered ? 3 : 1.5}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>animate={{ scale: isHovered ? 1.2 : 1, filter: isHovered ? `drop-shadow(0 0 10px ${item.color})` : "none" }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>transition={{ type: "spring", stiffness: 300, damping: 20 }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>/&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>) : (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;circle<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>cx={item.cx} cy={item.cy} r={item.r} fill={item.color} opacity="0.9"<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>stroke="white" strokeWidth="1.5"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>/&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>)}</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>{/* Text Labels - Forced Inter Font */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>{item.type === 'outside' ? (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;text<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>x={item.lx + item.xOffset} y={item.ly} dy="0.35em" textAnchor={item.anchor}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>fill={isPdf ? '#111827' : 'currentColor'}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>className={isPdf ? '' : `text-neutral-900 dark:text-white font-bold text-xs ${isHovered ? 'opacity-100' : 'opacity-70'}`}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>fontSize={isPdf ? "12" : ""} fontWeight="bold"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>style={{ fontFamily: 'Inter, sans-serif' }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>{item.name}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/text&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>) : (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;text<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>x={item.cx} y={item.cy} dy="0.35em" textAnchor="middle" fill="white"<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>fontSize={item.r &gt; 35 ? "14" : "10"} fontWeight="bold"<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>className={isPdf ? '' : "pointer-events-none select-none shadow-black drop-shadow-md"}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>style={{ textShadow: isPdf ? 'none' : '0px 1px 3px rgba(0,0,0,0.8)', fontFamily: 'Inter, sans-serif' }}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>{item.name.split(' ')[0]}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/text&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>)}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/g&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>})}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/svg&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>// --- DATA STRUCTURE ---</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const lifePortfolioStructure = [</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>{ area: "Relationships", color: "#E34A4A", units: [{ id: "significantOther", name: "Significant Other", desc: "Quality of relationship with partner/spouse." }, { id: "family", name: "Family", desc: "Relationships with parents, siblings, children, etc." }, { id: "friendship", name: "Friendship", desc: "Social circle and close friends." }] },</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>{ area: "Body, mind, and spirituality", color: "#4A7DE3", units: [{ id: "physicalHealth", name: "Physical health", desc: "Fitness, diet, sleep, and energy levels." }, { id: "mentalHealth", name: "Mental health", desc: "Emotional well-being and stress management." }, { id: "spiritualityFaith", name: "Spirituality/faith", desc: "Connection to beliefs, purpose, or religion." }] },</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>{ area: "Community and society", color: "#E38F4A", units: [{ id: "communityCitizenship", name: "Community/citizenship", desc: "Volunteering and local community involvement." }, { id: "societalEngagement", name: "Societal engagement", desc: "Politics, causes, and broader social impact." }] },</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>{ area: "Job, learning, and finances", color: "#4AE37D", units: [{ id: "jobCareer", name: "Job/career", desc: "Professional growth, achievement, and satisfaction." }, { id: "educationLearning", name: "Education/learning", desc: "Personal development and acquiring new skills." }, { id: "finances", name: "Finances", desc: "Financial security, savings, and income." }] },</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>{ area: "Interests and entertainment", color: "#8F4AE3", units: [{ id: "hobbiesInterests", name: "Hobbies/interests", desc: "Passion projects and leisure activities." }, { id: "onlineEntertainment", name: "Online entertainment", desc: "Gaming, social media, streaming." }, { id: "offlineEntertainment", name: "Offline entertainment", desc: "Travel, dining out, events." }] },</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>{ area: "Personal care", color: "#E34AE3", units: [{ id: "physiologicalNeeds", name: "Physiological needs", desc: "Basic necessities like food and shelter." }, { id: "activitiesOfDailyLiving", name: "Activities of daily living", desc: "Chores, commuting, and maintenance." }] },</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>];</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>// Function to generate initial data (resets on page refresh)</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const getInitialPortfolioData = () =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">             </span>const defaults = {};</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">             </span>lifePortfolioStructure.forEach(g =&gt; g.units.forEach(u =&gt; defaults[u.id] = { importance: 5, satisfaction: 5, timeInvested: 5 }));</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">             </span>return defaults;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>};</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>function App() {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [view, setView] = useState('landing');<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const [portfolioData, setPortfolioData] = useState(getInitialPortfolioData());</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>// References for PDF Export</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const pdfPage1Ref = useRef(null);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const pdfPage2Ref = useRef(null);</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>// No persistence effect needed. Data resets on App load/refresh.</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const handleUpdate = (unitId, field, value) =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>setPortfolioData(prev =&gt; ({ ...prev, [unitId]: { ...prev[unitId], [field]: value } }));</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>};</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const downloadPDF = async () =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>if (!pdfPage1Ref.current || !pdfPage2Ref.current) return;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>try {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>// Page capture options (High res, light background for print)</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>const opts = {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>scale: 2,<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>useCORS: true,</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>backgroundColor: '#f8fafc'<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>};</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>const canvas1 = await html2canvas(pdfPage1Ref.current, opts);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>const imgData1 = canvas1.toDataURL('image/png');</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>const pdf = new jspdf.jsPDF({ orientation: 'landscape', unit: 'px', format: [canvas1.width, canvas1.height] });</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>pdf.addImage(imgData1, 'PNG', 0, 0, canvas1.width, canvas1.height);</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>// Add Page 2</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>const canvas2 = await html2canvas(pdfPage2Ref.current, opts);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>const imgData2 = canvas2.toDataURL('image/png');</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>pdf.addPage([canvas2.width, canvas2.height], 'landscape');</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>pdf.addImage(imgData2, 'PNG', 0, 0, canvas2.width, canvas2.height);</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>pdf.save('StrategicLifePortfolio.pdf');</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>} catch (err) {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>console.error("PDF Gen Error:", err);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>// Use custom modal or console message instead of alert() in production</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>console.log("Could not generate PDF. Please try again.");</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>};</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>// --- PDF HIDDEN TEMPLATES ---</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>const PdfTemplates = () =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div className="fixed left-[-9999px] top-0"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>{/* Page 1: Matrix */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div ref={pdfPage1Ref} className="w-[1200px] min-h-[800px] p-12 bg-[#f8fafc] font-sans text-neutral-900 flex flex-col items-center justify-center"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div className="text-center mb-8"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;h1 className="text-4xl font-bold text-neutral-900 mb-2 font-sans"&gt;Strategic Life Portfolio&lt;/h1&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;p className="text-lg text-neutral-500 font-sans"&gt;Generated on {new Date().toLocaleDateString()}&lt;/p&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div className="w-full max-w-[900px]"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;MatrixChart data={portfolioData} structure={lifePortfolioStructure} isPdf={true} /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                         </span>&lt;div className="mt-8 flex gap-6 text-sm text-neutral-400"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="flex items-center gap-2"&gt;&lt;div className="w-3 h-3 bg-[#E34A4A] rounded-full"&gt;&lt;/div&gt; Relationships&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="flex items-center gap-2"&gt;&lt;div className="w-3 h-3 bg-[#4A7DE3] rounded-full"&gt;&lt;/div&gt; Body/Mind&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="flex items-center gap-2"&gt;&lt;div className="w-3 h-3 bg-[#E38F4A] rounded-full"&gt;&lt;/div&gt; Community&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="flex items-center gap-2"&gt;&lt;div className="w-3 h-3 bg-[#4AE37D] rounded-full"&gt;&lt;/div&gt; Job/Finances&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>{/* Page 2: Summary Table */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div ref={pdfPage2Ref} className="w-[1200px] min-h-[800px] p-12 bg-[#f8fafc] font-sans text-neutral-900"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;h2 className="text-3xl font-bold text-neutral-900 mb-8 border-b pb-4 border-neutral-200 font-sans"&gt;Portfolio Summary&lt;/h2&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div className="grid grid-cols-2 gap-8"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>{lifePortfolioStructure.map((group) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div key={group.area} className="break-inside-avoid mb-6"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;h3 className="text-lg font-bold mb-3 flex items-center gap-2 font-sans" style={{ color: group.color }}&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;span className="w-4 h-1 rounded-full" style={{ backgroundColor: group.color }}&gt;&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>{group.area}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/h3&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="bg-white rounded-lg border border-neutral-200 shadow-sm overflow-hidden"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;table className="w-full text-sm text-left"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;thead className="bg-neutral-50 border-b border-neutral-200 text-neutral-500 uppercase text-xs"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;tr&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;th className="px-4 py-2 font-medium"&gt;Unit&lt;/th&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;th className="px-4 py-2 font-medium text-center"&gt;Imp&lt;/th&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;th className="px-4 py-2 font-medium text-center"&gt;Sat&lt;/th&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;th className="px-4 py-2 font-medium text-center"&gt;Time&lt;/th&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/tr&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/thead&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;tbody className="divide-y divide-neutral-100"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>{group.units.map(unit =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>const d = portfolioData[unit.id] || { importance: 5, satisfaction: 5, timeInvested: 5 };</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;tr key={unit.id}&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;td className="px-4 py-3 font-medium text-neutral-800 font-sans"&gt;{unit.name}&lt;/td&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;td className="px-4 py-3 text-center text-indigo-600 font-bold font-sans"&gt;{d.importance}&lt;/td&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;td className="px-4 py-3 text-center text-emerald-600 font-bold font-sans"&gt;{d.satisfaction}&lt;/td&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;td className="px-4 py-3 text-center text-amber-600 font-bold font-sans"&gt;{d.timeInvested}&lt;/td&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;/tr&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>)</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>})}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>&lt;/tbody&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;/table&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>))}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>);</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>if (view === 'landing') return &lt;LandingPage onStart={() =&gt; setView('app')} /&gt;;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>if (view === 'matrix') {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div className="min-h-screen bg-white dark:bg-neutral-950 text-neutral-900 dark:text-white p-4 md:p-8 lg:p-12 transition-colors duration-300 font-sans"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;PdfTemplates /&gt; {/* Hidden render for PDF */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} className="max-w-6xl mx-auto"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;nav className="flex items-center justify-between mb-8 pb-4 border-b border-neutral-200 dark:border-white/10"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;button onClick={() =&gt; setView('app')} className="flex items-center gap-2 text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors group"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="p-2 rounded-full bg-neutral-100 dark:bg-neutral-900 group-hover:bg-neutral-200 dark:group-hover:bg-neutral-800"&gt;&lt;ArrowLeft size={18} /&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;span className="font-medium text-sm"&gt;Back to Editor&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/button&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="flex items-center gap-4"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;ThemeToggle /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;button onClick={downloadPDF} className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors shadow-lg shadow-indigo-500/20"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;Download size={16} /&gt; Download PDF</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/button&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/nav&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="text-center mb-8"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;h2 className="text-3xl font-bold mb-2 font-sans"&gt;Your Strategic Life Matrix&lt;/h2&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;p className="text-neutral-500 dark:text-neutral-400 font-sans"&gt;Visualizing your life balance, importance, and time investment.&lt;/p&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="p-8 bg-white dark:bg-neutral-900 rounded-xl shadow-2xl border border-neutral-200 dark:border-neutral-800 transition-colors duration-300"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="text-center mb-6"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;h1 className="text-2xl font-bold text-gray-800 dark:text-white font-sans"&gt;Strategic Life Portfolio&lt;/h1&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;p className="text-sm text-gray-500 dark:text-gray-400 font-sans"&gt;Generated on {new Date().toLocaleDateString()}&lt;/p&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;MatrixChart data={portfolioData} structure={lifePortfolioStructure} /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/motion.div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div className="min-h-screen bg-white dark:bg-neutral-950 text-neutral-900 dark:text-white p-4 md:p-8 lg:p-12 transition-colors duration-300 font-sans"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;PdfTemplates /&gt; {/* Hidden render for PDF */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-5xl mx-auto"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;nav className="flex items-center justify-between mb-8 pb-4 border-b border-neutral-200 dark:border-white/10"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;button onClick={() =&gt; setView('landing')} className="flex items-center gap-2 text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors group"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="p-2 rounded-full bg-neutral-100 dark:bg-neutral-900 group-hover:bg-neutral-200 dark:group-hover:bg-neutral-800"&gt;&lt;ArrowLeft size={18} /&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;span className="font-medium text-sm"&gt;Back to Home&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/button&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="flex items-center gap-4"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>{/* Removed auto-save status bar */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;ThemeToggle /&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/nav&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;header className="mb-12 text-center max-w-2xl mx-auto"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;h2 className="text-3xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 dark:from-indigo-300 dark:via-white dark:to-cyan-300 pb-2 font-sans"&gt;Build your Strategic Life Portfolio&lt;/h2&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;p className="text-neutral-500 dark:text-neutral-400 mt-2 text-lg font-sans"&gt;Assess the Importance, Satisfaction, and Time Invested for each area of your life.&lt;/p&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>{/* Explanatory Section */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;div className="mt-8 p-6 bg-neutral-100 dark:bg-neutral-900/50 border border-neutral-200 dark:border-white/10 rounded-2xl text-left text-sm space-y-4 shadow-inner"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="flex items-start gap-3"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="p-2 bg-indigo-100 dark:bg-indigo-900/30 rounded-lg text-indigo-600 dark:text-indigo-400 mt-0.5"&gt;&lt;Star size={16} /&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;strong className="block text-neutral-900 dark:text-white mb-1"&gt;Importance (1-10)&lt;/strong&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;p className="text-neutral-600 dark:text-neutral-400 leading-relaxed"&gt;How critical is this area to your overall happiness and life purpose right now? A 10 means it is a top priority.&lt;/p&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="flex items-start gap-3"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="p-2 bg-emerald-100 dark:bg-emerald-900/30 rounded-lg text-emerald-600 dark:text-emerald-400 mt-0.5"&gt;&lt;Heart size={16} /&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;strong className="block text-neutral-900 dark:text-white mb-1"&gt;Satisfaction (1-10)&lt;/strong&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;p className="text-neutral-600 dark:text-neutral-400 leading-relaxed"&gt;How satisfied are you with your current situation in this area? A 10 means you are completely fulfilled.&lt;/p&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div className="flex items-start gap-3"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="p-2 bg-amber-100 dark:bg-amber-900/30 rounded-lg text-amber-600 dark:text-amber-400 mt-0.5"&gt;&lt;Zap size={16} /&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;strong className="block text-neutral-900 dark:text-white mb-1"&gt;Time Invested (1-10 Hours/Week)&lt;/strong&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;p className="text-neutral-600 dark:text-neutral-400 leading-relaxed"&gt;How much dedicated time do you spend on this area weekly? A score of 10 represents &lt;strong&gt;10 or more hours per week&lt;/strong&gt;.&lt;/p&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/header&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div className="space-y-8 pb-32"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>{lifePortfolioStructure.map((group) =&gt; (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;div key={group.area} className="bg-white dark:bg-neutral-900/30 border border-neutral-200 dark:border-white/5 rounded-3xl overflow-hidden shadow-sm dark:shadow-none dark:backdrop-blur-sm transition-colors duration-300"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="px-6 py-4 border-b border-neutral-100 dark:border-white/5 flex items-center gap-3 bg-neutral-50 dark:bg-white/5"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;div className="w-1 h-6 rounded-full" style={{ backgroundColor: group.color }}&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>&lt;h3 className="text-xl font-semibold text-neutral-900 dark:text-white tracking-tight font-sans"&gt;{group.area}&lt;/h3&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;div className="p-6 space-y-8"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>{group.units.map((unit) =&gt; {</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>const data = portfolioData[unit.id] || { importance: 5, satisfaction: 5, timeInvested: 5 };</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>return (</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;div key={unit.id} className="bg-neutral-50/50 dark:bg-neutral-950/50 rounded-2xl p-5 border border-neutral-100 dark:border-white/5 hover:border-indigo-200 dark:hover:border-white/10 transition-colors"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;div className="flex items-center gap-2 mb-6 border-b border-neutral-200 dark:border-white/5 pb-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;h4 className="text-lg font-medium text-neutral-800 dark:text-neutral-200 font-sans"&gt;{unit.name}&lt;/h4&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;Tooltip text={unit.desc}&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;div className="p-1 text-neutral-400 hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors cursor-help"&gt;&lt;Info size={16} /&gt;&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;/Tooltip&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-6"&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                                                        </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>{/* Importance */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;div className="flex flex-col space-y-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;span className="text-xs font-bold text-neutral-400 uppercase tracking-wider font-sans"&gt;Importance&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;DiscreteSlider<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>value={data.importance}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>onChange={(v) =&gt; handleUpdate(unit.id, 'importance', v)}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>colorClass="text-indigo-500 dark:text-indigo-400"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>bgClass="bg-indigo-500"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>/&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                                                        </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>{/* Satisfaction */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;div className="flex flex-col space-y-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;span className="text-xs font-bold text-neutral-400 uppercase tracking-wider font-sans"&gt;Satisfaction&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;DiscreteSlider<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>value={data.satisfaction}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>onChange={(v) =&gt; handleUpdate(unit.id, 'satisfaction', v)}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>colorClass="text-emerald-500 dark:text-emerald-400"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>bgClass="bg-emerald-500"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>/&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>{/* Time Invested */}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;div className="flex flex-col space-y-2"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;span className="text-xs font-bold text-neutral-400 uppercase tracking-wider font-sans"&gt;Time Invested&lt;/span&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>&lt;DiscreteSlider<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>value={data.timeInvested}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>onChange={(v) =&gt; handleUpdate(unit.id, 'timeInvested', v)}<span class="Apple-converted-space"> </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>colorClass="text-amber-500 dark:text-amber-400"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                                </span>bgClass="bg-amber-500"</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                            </span>/&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                        </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                            </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                        </span>})}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>))}</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;motion.div initial={{ y: 100 }} animate={{ y: 0 }} className="fixed bottom-8 left-0 right-0 flex justify-center z-50 pointer-events-none"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;button onClick={() =&gt; setView('matrix')} className="pointer-events-auto bg-indigo-600 text-white font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl hover:bg-indigo-500 hover:scale-105 transition-all duration-300 border-4 border-indigo-400/20 font-sans"&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                                </span>Build Portfolio →</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;/button&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/motion.div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/motion.div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">            </span>);</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p5"><span class="s10"></span><br></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>const root = ReactDOM.createRoot(document.getElementById('root'));</span></p>
+<p class="p4"><span class="s1"><span class="Apple-converted-space">        </span>root.render(&lt;App /&gt;);</span></p>
+<p class="p1"><span class="s5"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s3">&lt;/</span><span class="s1">body</span><span class="s3">&gt;</span></p>
+<p class="p1"><span class="s3">&lt;/</span><span class="s1">html</span><span class="s3">&gt;</span></p>
+</body>
+</html>
